@@ -7,3 +7,5 @@ Created on Mon May 23 16:35:15 2016
 @date: 
 """
 
+import quandl
+mydata = quandl.get("FRED/GDP")
